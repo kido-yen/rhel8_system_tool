@@ -20,7 +20,7 @@ When xfs-series scripts are used, please make sure the kernel version of source 
 <tr><td>part_id</td><td>part_type</td><td>fs_uuid</td><td>part_size</td><td>used</td><td>part_code</td><td>part_backup</td></tr>
 <tr><td>1</td><td>vfat</td><td>5FC0-DB81</td><td>600</td><td>6</td><td>EF00</td><td>EF00 p1.tar.xz</td></tr>
 </table>
-    The part_size and used are in MegaByte. part_size should be greater than used. If the destination disk is smaller than the source one, the part_size can be reduced to fit disk size.
+    The part_size and used are in MegaByte. part_size should be greater than used. If the target disk is smaller than the source one, the part_size can be reduced to fit disk size.
 
 # content of disk_layout for tar-series backup
     1 vfat 5FC0-DB81 600    6 EF00 p1.tar.xz
